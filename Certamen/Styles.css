@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #cfcfcf;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    background: #2c3e50;
+    padding: 15px 20px;
+    color: rgb(230, 230, 230);
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+ .nav-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.centrado-perfecto {
+    display: flex;
+    justify-content: right; 
+    align-items: center;     
+    height: 200px;
+    background: #ecf0f1;
+    border: 2px dashed #bdc3c7;
+}
+.caja {
+    background: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.texto {
+  flex: 1;               
+}
+.hero-section {
+  background-color: #1a467a;
+  padding: 60px;            
+  text-align: left;          
+  color: white;              
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h1 span {
+  color: #772b2b; 
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+
+p {
+  font-size: 1.1rem;
+  font-style: italic;       
+  line-height: 1.6;         
+  opacity: 0.9;             
+
+}
+.contenedor {
+  display: flex;             /* Activa el modo horizontal */
+  justify-content: space-between; /* Empuja el texto a la izq y la foto a la der */
+  align-items: center;       /* Los centra verticalmente */
+  padding: 50px;
+  background-color: #1e457e; /* Tu color azul */
+  color: white;
+}
+.bloque-imagen img {
+  width: 100px;              /* Ajusta el tamaño a tu gusto */
+  height: 100px;
+  border-radius: 3%;        /* Para que sea circular */
+}
+.contenido-imagen {
+  flex-shrink: 0;                 /* Evita que la imagen se aplaste */
+}
