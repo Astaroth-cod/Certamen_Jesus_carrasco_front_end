@@ -6,16 +6,16 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #cfcfcf; /* El color gris de fondo que tenías */
+    background: #cfcfcf; 
 }
 
-/* --- Tu Navbar --- */
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #2c3e50; /* El azul oscuro de tu captura */
-    padding: 15px 5%;
+    background:linear-gradient(135deg, #071f40 0%, #4d0d0d 100%); 
+    padding: 15px;
     color: white;
 }
 
@@ -30,34 +30,84 @@ body {
     font-weight: bold;
 }
 
-/* --- Tu Sección Principal (Contenedor) --- */
+
 .contenedor {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 80px 10%;
-    background-color: #040437; /* Tu color azul de fondo */
+    padding: 20px;
+    background:linear-gradient(135deg, #4d0d0d 0%, #071f40 100%); 
     color: white;
-    min-height: 450px;
+    min-height: 100px;
 }
 
 .bloque-texto {
     flex: 1;
 }
 
-/* Estilo para que tu nombre resalte como en el PDF */
+
 .nombre {
-    color: #801010; /* Un naranja para que resalte sobre el azul */
+    color: #801010;
 }
 
-/* --- Tu Imagen de Perfil --- */
+
 .contenido-imagen {
     flex-shrink: 0;
 }
 
 .foto-perfil {
-    border-radius: 50%; /* Esto la hace circular como el PDF */
+    border-radius: 50%; 
     border: 5px solid rgba(255, 255, 255, 0.2);
     object-fit: cover;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.seccion-blanca {
+    padding: 60px 10%;
+    background-color: #ffffff;
+}
+
+
+.contenedor-titulo {
+    text-align: center;
+    margin-bottom: 50px; 
+}
+
+.linea-decorativa {
+    height: 4px;
+    width: 60px;
+    background-color: #6a1616; 
+    margin: 10px auto; 
+}
+.bajada-titulo {
+    color: #777; 
+    font-size: 1.1rem;
+}
+
+
+.contenido-flex {
+    display: flex;       
+    gap: 50px;           
+    align-items: flex-start;
+}
+
+.columna-texto {
+    flex: 2;            
+}
+
+.tarjeta-datos {
+    flex: 1;             
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
+}
+
+
+.frase-cita {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #ffdcdc; 
+    border-left: 5px solid #8f1414;
+    font-style: italic;
 }
