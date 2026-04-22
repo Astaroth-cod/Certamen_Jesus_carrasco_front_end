@@ -210,6 +210,76 @@
         </figure>
     </div>
 </section>
+<section id="contacto" class="seccion-contacto">
+    <div class="contenedor-titulo">
+        <h2>Contacto</h2>
+        <div class="linea-decorativa"></div>
+        <p class="bajada-titulo">Envíame un mensaje</p>
+    </div>
+
+    <div class="contenedor-flex-contacto">
+        <form action="#" method="POST" class="formulario">
+            <div class="fila-input">
+                <div class="campo">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                </div>
+            </div>
+
+            <div class="campo">
+                <label for="asunto">Asunto</label>
+                <select id="asunto" name="asunto">
+                    <option value="" disabled selected>Selecciona un asunto</option>
+                    <option value="colaboracion">Colaboración</option>
+                    <option value="proyecto">Proyecto personal</option>
+                    <option value="pokemon">Duelo Pokémon / Fan Games</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            </div>
+
+            <button type="submit" class="boton-enviar">Enviar mensaje</button>
+        </form>
+
+        <aside class="informacion-contacto">
+            <div class="tarjeta-blanca">
+                <h3>Información de contacto</h3>
+                <ul>
+                    <li><span class="icono-circular">📧</span> jcarrasco421@gmail.com</li>
+                    <li><span class="icono-circular">📍</span> Talcahuano, Chile</li>
+                    <li><span class="icono-circular">📱</span> +56 9 1234 5678</li>
+                    <li><span class="icono-circular">🐙</span> github.com/tu-usuario</li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+</section>
+
+<footer class="footer-final">
+    <div class="contenido-footer">
+        <div class="marca-footer">
+            <img src="Asset/Bulbasour.jpg" alt="Logo Bulbasaur" class="logo-footer">
+            <span>Jesus Carrasco</span>
+        </div>
+        <div class="redes-footer">
+            <a href="#" class="social-tag">GH</a>
+            <a href="#" class="social-tag">LI</a>
+            <a href="#" class="social-tag">TW</a>
+            <a href="#" class="social-tag">IG</a>
+        </div>
+    </div>
+    <div class="copyright-bar">
+        <p>© 2026 Jesus Carrasco. Todos los derechos reservados.</p>
+    </div>
+</footer>
     </main>
 </body>
 </html>
