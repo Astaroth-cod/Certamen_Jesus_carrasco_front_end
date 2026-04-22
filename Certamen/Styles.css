@@ -445,3 +445,54 @@ th {
         flex-direction: column;
     }
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; 
+        gap: 15px;
+        text-align: center;
+    }
+
+    .contenedor, .contenido-flex, .contenedor-listas-habilidades {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foto-perfil {
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .tarjeta-datos, .caja-lista-habilidades {
+        width: 100%;
+    }
+
+    .grilla-proyectos {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+
+@media (max-width: 480px) {
+    section {
+        padding: 40px 5%; 
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.2rem; }
+
+    .fila-input {
+        flex-direction: column;
+    }
+
+    .contenido-footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
