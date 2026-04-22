@@ -198,7 +198,7 @@ th {
     margin-left: 20px;
 }
 
-/* GRID DE PROYECTOS (Mantenemos la estructura) */
+
 .grilla-proyectos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -213,7 +213,7 @@ th {
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
-    display: flex; /* Para alinear verticalmente el contenido de la tarjeta */
+    display: flex; 
     flex-direction: column;
 }
 
@@ -223,31 +223,30 @@ th {
     box-shadow: 0 15px 30px rgba(0,0,0,0.2);
 }
 
-/* CONTENEDOR DE LA IMAGEN (Con los gradientes) */
+
 .imagen-proyecto {
-    height: 140px; /* Altura fija para el área del logo */
+    height: 140px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px; /* Espacio interno para que el logo no toque los bordes */
+    padding: 20px; 
 }
 
-/* ESTILO ESPECÍFICO PARA LA IMAGEN (<img>) */
 .imagen-proyecto img {
-    max-height: 100%; /* La imagen no puede ser más alta que el contenedor */
-    max-width: 100%;  /* La imagen no puede ser más ancha que el contenedor */
-    object-fit: contain; /* Mantiene la proporción de la imagen sin deformarla */
+    max-height: 100%; 
+    max-width: 100%;  
+    object-fit: contain;
 }
 
-/* COLORES DE TUS GRADIENTES (Se mantienen) */
+
 .color-azul { background: linear-gradient(135deg, #101a2d, #1e457e); }
 .color-rojo { background: linear-gradient(135deg, #3e0807, #7e1e1a); }
 .color-mix { background: linear-gradient(135deg, #101a2d, #3e0807); }
 
-/* INFO Y BOTÓN (Se mantienen) */
+
 .info-proyecto {
     padding: 20px;
-    flex-grow: 1; /* Para que la info ocupe el espacio restante y el botón quede abajo */
+    flex-grow: 1; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -266,7 +265,7 @@ th {
 
 .boton {
     display: inline-block;
-    margin-top: auto; /* Empuja el botón al final de la tarjeta */
+    margin-top: auto; 
     padding: 10px 20px;
     background: #101a2d;
     color: white;
@@ -280,10 +279,10 @@ th {
 .boton:hover {
     background: #3e0807;
 }
-/* --- ESTILOS SECCIÓN CONTACTO --- */
+
 .seccion-contacto {
     padding: 80px 10%;
-    background-color: #f4f7f6; /* Gris muy claro de fondo */
+    background-color: #f4f7f6; 
 }
 
 .contenedor-flex-contacto {
@@ -326,12 +325,12 @@ th {
 }
 
 .campo input:focus, .campo textarea:focus {
-    border-color: #3e0807; /* Tu rojo vino */
+    border-color: #3e0807; 
     outline: none;
 }
 
 .boton-enviar {
-    background-color: #101a2d; /* Tu azul profundo */
+    background-color: #101a2d; 
     color: white;
     padding: 15px;
     border: none;
@@ -343,7 +342,7 @@ th {
 }
 
 .boton-enviar:hover {
-    background-color: #3e0807; /* Cambia a rojo vino al pasar el mouse */
+    background-color: #3e0807; 
 }
 
 .informacion-contacto {
@@ -385,9 +384,9 @@ th {
     color: white;
 }
 
-/* --- FOOTER --- */
+
 .footer-final {
-    background-color: #101a2d;
+    background: linear-gradient(135deg, #8a1212 0%, #0f265e 100%);
     color: white;
     padding: 50px 10% 20px 10%;
 }
